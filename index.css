@@ -126,7 +126,7 @@ p span {
     body {
         background-image: url('/assets/images/background-mob.jpg');
         background-size: cover;
-        overflow: unset;
+        overflow: scroll;
         height: 100vh;
         width: 100%;
     }
@@ -140,12 +140,12 @@ p span {
         /* margin-top: 100px; */
     }
     .wrapper {
-        height: 97vh;
+        height: 100vh;
         flex-direction: column-reverse;
         padding: 0 3.125rem;
     }
     .right-col{
-        min-height: 45%;
+        min-height: 50%;
     }
     h1 {
         max-width: 70%;
