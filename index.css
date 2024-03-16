@@ -135,7 +135,7 @@ p span {
         width: 100% !important;
         margin:0;
         padding: 0;
-        justify-content: middle;
+        justify-content: center;
         height: 50%;
         /* margin-top: 100px; */
     }
@@ -150,4 +150,5 @@ p span {
     h1 {
         max-width: 187px;
     }
+   
 }
