@@ -148,7 +148,8 @@ p span {
         height: 50%;
     }
     h1 {
-        max-width: 187px;
+        max-width: 80%;
+        text-align: left;
     }
    
 }
