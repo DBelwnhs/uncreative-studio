@@ -136,7 +136,7 @@ p span {
         margin:0;
         padding: 0;
         justify-content: center;
-        height: 55%;
+        min-height: 55vh;
         /* margin-top: 100px; */
     }
     .wrapper {
@@ -145,7 +145,7 @@ p span {
         padding: 0 3.125rem;
     }
     .right-col{
-        min-height: 45%;
+        min-height: 45vh;
     }
     h1 {
         max-width: 70%;
