@@ -3,10 +3,6 @@ import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 
 
-const award1 = "/public/images/award-1.jpg";
-const award2 = "/public/images/award-2.jpg";
-const award3 = "/public/images/award-3.jpg";
-const award4 = "/public/images/award-4.jpg";
 
 export const DragCards = () => {
   return (
@@ -33,7 +29,7 @@ const Cards = () => {
     <div className="absolute inset-0 z-10" ref={containerRef}>
       <Card
         containerRef={containerRef}
-        src="/public/images/award-1.jpg"
+        src="/images/award-1.jpg"
         alt="Example image"
         rotate="6deg"
         top="20%"
@@ -43,7 +39,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="/public/images/award-2.jpg"
+        src="/images/award-2.jpg"
         alt="Example image"
         rotate="12deg"
         top="45%"
@@ -53,7 +49,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="/public/images/award-3.jpg"
+        src="/images/award-3.jpg"
         alt="Example image"
         rotate="-6deg"
         top="20%"
@@ -63,7 +59,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src={award4}
+        src="/images/award-4.jpg"
         alt="Example image"
         rotate="8deg"
         top="50%"
