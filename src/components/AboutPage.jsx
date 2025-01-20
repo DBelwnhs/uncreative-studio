@@ -1,7 +1,8 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import aboutLogo from "uncreative-studio/public/images/about_logo.png";
+
+const aboutLogo = "/public/images/about_logo.png";
 
 const AboutPage = () => {
   return (
