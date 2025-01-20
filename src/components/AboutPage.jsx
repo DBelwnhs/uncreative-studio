@@ -1,8 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-
-const aboutLogo = "/public/images/about_logo.png";
+import aboutLogo from "/public/images/about_logo.png";
 
 const AboutPage = () => {
   return (
