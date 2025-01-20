@@ -29,43 +29,43 @@ const Cards = () => {
     <div className="absolute inset-0 z-10" ref={containerRef}>
       <Card
         containerRef={containerRef}
-        src="/src/assets/images/award-1.jpg"
+        src="/public/images/award-1.jpg"
         alt="Example image"
         rotate="6deg"
         top="20%"
         left="25%"
         className="w-36 md:w-56"
-        link="https://example.com/image1" // Link destination
+        link="/our-projects" // Link destination
       />
       <Card
         containerRef={containerRef}
-        src="/src/assets/images/award-2.jpg"
+        src="/public/images/award-2.jpg"
         alt="Example image"
         rotate="12deg"
         top="45%"
         left="60%"
         className="w-24 md:w-48"
-        link="https://example.com/image2" // Link destination
+        link="/our-projects" // Link destination
       />
       <Card
         containerRef={containerRef}
-        src="/src/assets/images/award-3.jpg"
+        src="/public/images/award-3.jpg"
         alt="Example image"
         rotate="-6deg"
         top="20%"
         left="40%"
         className="w-52 md:w-80"
-        link="https://example.com/image3" // Link destination
+        link="/our-projects" // Link destination
       />
       <Card
         containerRef={containerRef}
-        src="/src/assets/images/award-4.jpg"
+        src="/public/images/award-4.jpg"
         alt="Example image"
         rotate="8deg"
         top="50%"
         left="40%"
         className="w-48 md:w-72"
-        link="https://example.com/image4" // Link destination
+        link="/our-projects" // Link destination
       />
       {/* <Card
         containerRef={containerRef}
