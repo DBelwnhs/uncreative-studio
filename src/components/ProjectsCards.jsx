@@ -3,6 +3,10 @@ import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 
 
+const award1 = "/public/images/award-1.jpg";
+const award2 = "/public/images/award-2.jpg";
+const award3 = "/public/images/award-3.jpg";
+const award4 = "/public/images/award-4.jpg";
 
 export const DragCards = () => {
   return (
@@ -59,7 +63,7 @@ const Cards = () => {
       />
       <Card
         containerRef={containerRef}
-        src="/public/images/award-4.jpg"
+        src={award4}
         alt="Example image"
         rotate="8deg"
         top="50%"
