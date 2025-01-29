@@ -98,16 +98,24 @@ const ProjectTemplate = () => {
         {img1 && <img src={img1} alt="Image 1" className="w-full my-6" />}
         {img7 && <img src={img7} alt="Image 8" className="w-full my-6" />}
       </div>
-      <div className="flex w-full xl:w-[1600px] lg:w-[1100px] md:w-[900px] sm:w-[700px] xs:w-[95%] mx-auto px-0 m-0 ">
-        {img2 && <img src={img2} alt="Image 2" className="w-1/2 mr-[7.5px]" />}
-        {img3 && <img src={img3} alt="Image 3" className="w-1/2 ml-[7.5px]" />}
+      <div className="flex w-full xl:w-[1600px] lg:w-[1100px] md:w-[900px] sm:w-[700px] xs:w-[95%] mx-auto px-0 m-0   sm:justify-normal justify-center  ">
+        {img2 && <img src={img2} alt="Image 2" className="w-1/2 sm:mr-[7.5px] mr-[5px]" />}
+        {img3 && <img src={img3} alt="Image 3" className="w-1/2 sm:ml-[7.5px] ml-[5px]" />}
       </div>
-      <div className="flex w-full xl:w-[1600px] lg:w-[1100px] md:w-[900px] sm:w-[700px] xs:w-[95%] mx-auto px-0 m-0 ">
-        {img4 && <img src={img4} alt="Image 4" className="w-1/2 mr-[7.5px] mt-[15px]" />}
-        {img5 && <img src={img5} alt="Image 5" className="w-1/2 ml-[7.5px] mt-[15px]" />}
+      <div className="flex w-full xl:w-[1600px] lg:w-[1100px] md:w-[900px] sm:w-[700px] xs:w-[95%] mx-auto px-0 m-0 sm:justify-normal justify-center ">
+        {img4 && <img src={img4} alt="Image 4" className="w-1/2 sm:mr-[7.5px] mr-[5px] mt-[15px]" />}
+        {img5 && <img src={img5} alt="Image 5" className="w-1/2 sm:ml-[7.5px] ml-[5px] mt-[15px]" />}
       </div>
       <div className="w-full xl:w-[1600px] lg:w-[1100px] md:w-[900px] sm:w-[700px] xs:w-[95%] mx-auto px-0 m-0 mt-6 lg:mb-80 ">
-        {video2 && <video src={video2} autoPlay loop className="w-full"></video>}
+        {video2 && <video  src={video2} 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            disablePictureInPicture 
+            controlsList="nodownload nofullscreen" 
+            controls={false}
+            ></video>}
         {img6 && <img src={img6} alt="Image 1" className="w-full my-6" />}
       </div>
       

@@ -61,14 +61,14 @@ const Contact = () => {
                 type="text"
                 name="from_name"
                 placeholder="NAME"
-                className="w-full border-2 border-black bg-transparent placeholder-white text-lg outline-none focus:border-black mb-4 md:h-20 h-12 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
+                className="w-full border-2 border-black bg-transparent placeholder-white sm:text-xl text-sm outline-none focus:border-black mb-4 md:h-20 h-12 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
                 required
               />
               <input
                 type="email"
                 name="email"
                 placeholder="EMAIL"
-                className="w-full border-2 border-black bg-transparent placeholder-white text-lg outline-none focus:border-black mb-4 md:h-20 h-12 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
+                className="w-full border-2 border-black bg-transparent placeholder-white sm:text-xl text-sm outline-none focus:border-black mb-4 md:h-20 h-12 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
                 required
               />
             </div>
@@ -77,13 +77,13 @@ const Contact = () => {
               type="text"
               name="company"
               placeholder="COMPANY"
-              className="w-full border-2 border-black bg-transparent placeholder-white text-lg outline-none focus:border-black mb-4 md:h-20 h-12 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
+              className="w-full border-2 border-black bg-transparent placeholder-white sm:text-xl text-sm outline-none focus:border-black mb-4 md:h-20 h-12 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
             />
 
             <textarea
               name="message"
               placeholder="TELL US..."
-              className="w-full border-b-2 bg-transparent placeholder-white text-lg outline-none focus:border-black md:h-32 h-20 mb-4 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
+              className="w-full border-b-2 bg-transparent placeholder-white sm:text-xl text-sm outline-none focus:border-black md:h-32 h-20 mb-4 p-6 bg-black font-sans text-white focus:placeholder-black focus:text-black focus:bg-[#ffffff00]"
               required
             />
 

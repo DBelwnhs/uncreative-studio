@@ -33,7 +33,7 @@ const Header = () => {
           <div className="flex justify-start">
             <Link
               to="/"
-              className={`font-lemon text-[50px] xl:text-[50px] md:text-[40px] sm:text-[35px] xs:text-[30px] ${
+              className={`font-lemon text-[50px] xl:text-[50px] md:text-[40px] sm:text-[35px] xs:text-[28px] ${
                 isScrolled ? "text-white" : "text-black"
               }`}
             >

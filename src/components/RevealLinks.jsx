@@ -7,9 +7,9 @@ export const RevealLinks = () => {
     <div className="w-full xl:w-[1600px] lg:w-[1100px] md:w-[900px] sm:w-[700px] xs:w-[95vw] mx-auto p-0 sm:pt-12 sm:px-0 xs:px-4">
     <section className="grid place-content-start sm:place-content-start py-20 gap-2 bg-green-300 text-[#3E3E3E] font-bold">
       
-      <FlipLink href="#">Instagram</FlipLink>
-      <FlipLink href="#">Facebook</FlipLink>
-      <FlipLink href="#">Linkedin</FlipLink>
+      <FlipLink href="https://www.instagram.com/uncreative_studio_chania/">Instagram</FlipLink>
+      <FlipLink href="https://www.facebook.com/people/Uncreative-studio/100089800955418/">Facebook</FlipLink>
+      <FlipLink href="https://www.linkedin.com/in/antonia-proimaki-8964b0175/">Linkedin</FlipLink>
     </section></div></div>
   );
 };

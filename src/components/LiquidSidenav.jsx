@@ -34,7 +34,7 @@ useEffect(() => {
         whileHover={{ rotate: "180deg" }}
         whileTap={{ scale: 0.9 }}
         onClick={() => setIsOpen(true)}
-        className={`text-3xl bg-[#ffffff00]  hover:text-indigo-500 transition-colors py-4 rounded-full ${
+        className={`text-3xl bg-[#ffffff00]  hover:text-indigo-500 transition-colors sm:py-4 py-1 rounded-full ${
           isScrolled ? "text-white" : "text-black"
         }`}
         aria-label="Open navigation"
