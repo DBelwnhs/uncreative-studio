@@ -67,6 +67,7 @@ useEffect(() => {
         >
           <NavLink text="home" to="/" />
           <NavLink text="portfolio" to="/our-projects" />
+          <NavLink text="awards" to="/our-awards" />
           <NavLink text="about" to="/about" />
           <NavLink text="contact" to="/contact" />
         </motion.div>

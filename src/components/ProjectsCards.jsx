@@ -10,12 +10,12 @@ export const DragCards = () => {
       <h2 className="relative z-0 text-[20vw] font-black text-white xs:text-[65px] sm:text-[100px] md:text-[200px] lg:text-[120px] font-lemon">
         AWARDS<span className="text-indigo-500">.</span>
       </h2>
-      <p
+      {/* <p
   className="flex w-[200px] h-[200px] justify-center items-center absolute top-[10%] right-[20%] z-50  font-sans text-white xs:text-[21px]  sm:text-[26px] uppercase text-center leading-tight border-2 border-white rounded-full p-1"
 >
   Move <br />
   The images
-</p>
+</p> */}
       <Cards />
     </section>
   );

@@ -80,22 +80,59 @@ a harmonious and professional visual identity.`,
     img7: "/images/drrozanna2.jpg",
     video2: null, 
   },
-  // sfiga: {
-  //   id: "sfiga",
-  //   title: "sfiga chania ",
-  //   featured_image: "/assets/images/featured_image.jpg", // Adjusted to public/assets/images
-  //   description: "A beautiful project in Crete.",
-  //   text: "This is a detailed description of the Heliophilia Crete project.",
-  //   prev_project: "projectA",
-  //   next_project: "projectB",
-  //   video1: "/videos/video1.mp4", // Adjusted to public/videos
-  //   img1: "/assets/images/img1.jpg", // Adjusted to public/assets/images
-  //   img2: "/assets/images/img2.jpg", // Adjusted to public/assets/images
-  //   img3: "/assets/images/img3.jpg", // Adjusted to public/assets/images
-  //   img4: "/assets/images/img4.jpg", // Adjusted to public/assets/images
-  //   img5: "/assets/images/img5.jpg", // Adjusted to public/assets/images
-  //   video2: "/videos/video2.mp4", // Adjusted to public/videos
-  // },
+  sfiga: {
+    id: "sfiga",
+    title: "sfiga",
+    featured_image: null, 
+    featured_video: "/videos/sfigavidF.mp4",
+    description: `Sfiga blends nightlife and cocktail culture, bringing freedom and energy to Chania.
+
+Through art direction, social media, and visual identity, it revives Egyptian culture via digital projects, communication, and exhibitions.
+
+Its logo reimagines the Sphinx, creating a modern yet historic symbol.`,
+    text: "Branding Name - Brand Identity - Visual Identity - Social media",
+    prev_project: "drrozanna",
+    next_project: "salty",
+    video1: null,
+    img7: "/images/sfiga1-02.jpg", 
+    img8: "/images/sfiga1-03.jpg", 
+    img1: "/images/sfiga1-01.jpg", 
+    img2: "/images/sfiga1-08.jpg", 
+    img3: "/images/sfiga1-09.jpg", 
+    img4: "/images/sfiga1-05.jpg", 
+    img5: "/images/sfiga1-06.jpg", 
+    video2: "/videos/sfigavid2.mp4",
+    img9: "/images/sfiga1-04.jpg", 
+    img10: "/images/sfiga1-10.jpg", 
+  },
+  mark: {
+    id: "mark",
+    title: "mar.k",
+    featured_image: null, 
+    featured_video: "/videos/markvid1.mp4",
+    description: ` Brand Identity for Mar.K @mar.k_civilengineer  
+
+We created a personalized typeface that highlights the unique 
+professional identity of Katerina Maraki, a civil engineer leaving 
+her mark across Greece. The design reflects her dedication 
+and expertise, seamlessly integrating her brand with her 
+exceptional work in the field.`,
+    text: "Branding Name - Brand Identity - Social Media - Outdoor Label",
+    prev_project: "sfiga",
+    next_project: "salty",
+    video1: null,
+    img7: "/images/mark2.jpg", 
+    img8: null, 
+    img1: "/images/mark1.jpg", 
+    img2: "/images/mark3.jpg", 
+    img3: "/images/mark4.jpg", 
+    img4: null, 
+    img5: null, 
+    video2: null,
+    img9: null, 
+    img10: "/images/mark5.jpg", 
+  },
+  
 };
 
 export default projectsData;

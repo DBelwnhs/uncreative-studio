@@ -7,7 +7,9 @@ import AboutPage from "./components/AboutPage";
 import HomePage from "./components/HomePage";
 import ScrollToTop from "./components/ScrollToTop";
 import OurProjects from "./components/OurProjects";
+import OurAwards from "./components/OurAwards";
 import ProjectTemplate from "./components/projects/ProjectTemplate";
+import AwardsTemplate from "./components/awards/AwardsTemplate";
 import projectsData from "./data/projects_data";
 
 const App = () => {
@@ -34,6 +36,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/our-projects" element={<OurProjects />} />
+        <Route path="/our-awards" element={<OurAwards  />} />
 
         {/* Dynamically generate routes */}
         <Route
@@ -41,6 +44,14 @@ const App = () => {
           element={
             <div className="custom-background">
               <ProjectTemplate />
+            </div>
+          }
+        />
+        <Route
+          path="/awards/:awardId"
+          element={
+            <div className="bg-[#000000]">
+              < AwardsTemplate />
             </div>
           }
         />

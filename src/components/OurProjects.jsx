@@ -6,6 +6,7 @@ import projectsData from "../data/projects_data";
 
 const OurProjects = () => {
   const projects = Object.values(projectsData);
+  
 
   return (
     <div className="min-h-screen custom-background">
@@ -17,13 +18,14 @@ const OurProjects = () => {
               <div key={project.id} className="text-center">
                 <Link to={`/projects/${project.id}`}>
                   <div className="w-full max-w-[375px] mx-auto aspect-square overflow-hidden">
-                    <img
+                    {project.featured_image && <img
                       src={project.featured_image}
                       alt={project.title}
                       className="w-full h-full object-cover filter grayscale"
-                    />
+                    />}
+                    {project.featured_video && <video src={project.featured_video} autoPlay loop className=""></video>}
                   </div>
-                  <h2 className="text-sm font-sans font-thin max-w-[375px] mx-auto text-start mt-[5px]">
+                  <h2 className="text-sm font-sans font-thin max-w-[375px] mx-auto text-start mt-[5px] uppercase">
                     {project.title}
                   </h2>
                 </Link>
