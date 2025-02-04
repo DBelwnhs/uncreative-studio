@@ -56,7 +56,7 @@ const AwardsTemplate = () => {
             />
           </div>
 
-          <div className="mx-auto md:w-[50%] xs:w-full sm:mt-0 xs:mt-6 flex flex-col sm:items-start align-top justify-start lg:ml-[100px] md:ml-6  ">
+          <div className="mx-auto md:w-[50%] xs:w-full sm:mt-0 xs:mt-6 flex flex-col sm:items-start align-top justify-between lg:ml-[100px] md:ml-6  ">
            
             <p
               className="sm:text-2xl leading-snug  text-md xl:mb-[180px] mb-11 text-white uppercase"
@@ -71,7 +71,7 @@ const AwardsTemplate = () => {
               {prev_project && (
                 <div className="flex items-center space-x-2">
                   <Link
-                    to={`/award/${prev_project}`}
+                    to={`/awards/${prev_project}`}
                     className="text-white font-lemon leading-tight uppercase  text-[13px]"
                   >
                     Previous Project
@@ -91,7 +91,7 @@ const AwardsTemplate = () => {
                     className="w-24 h-6"
                   />
                   <Link
-                    to={`/award/${next_project}`}
+                    to={`/awards/${next_project}`}
                     className="text-white font-lemon leading-tight uppercase  text-[13px] text-right"
                   >
                     Next Project

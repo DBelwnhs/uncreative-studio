@@ -8,8 +8,8 @@ ATHENS
 Project: PRETTY IN PINK
 Category: POSTER`,
 
-    prev_project: "drrozanna",
-    next_project: "salty",
+    prev_project: "primarycare",
+    next_project: "kotsovolos",
     video1: null,
     img1: "/images/pink1.jpg",
     img2: "/images/Pink3.jpg",
@@ -39,8 +39,8 @@ by Kotsovolos
 
 Category: Digital Platforms`,
 
-    prev_project: "drrozanna",
-    next_project: "salty",
+    prev_project: "pink",
+    next_project: "primarycare",
     video1: "/videos/kotsovid.mp4",
     img1: null,
     img2: "/images/Kotso3.jpg",
@@ -67,8 +67,8 @@ the GOLD Award in the category:
 Design, Development, 
 and Initial Experiences.`,
 
-    prev_project: "primarycare",
-    next_project: "salty",
+    prev_project: "kotsovolos",
+    next_project: "pink",
     video1: null,
     img1: "/images/primarycare1.jpg",
     img2: "/images/primarycare4.jpg",
