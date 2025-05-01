@@ -57,7 +57,6 @@ const AwardsTemplate = () => {
           </div>
 
           <div className="mx-auto md:w-[50%] xs:w-full sm:mt-0 xs:mt-6 flex flex-col sm:items-start align-top justify-between lg:ml-[100px] md:ml-6  ">
-           
             <p
               className="sm:text-2xl leading-snug  text-md xl:mb-[180px] mb-11 text-white uppercase"
               style={{ whiteSpace: "pre-line" }}
@@ -104,7 +103,17 @@ const AwardsTemplate = () => {
       </div>
       <div className="w-full xl:w-[1600px] lg:w-[1100px] md:w-[900px] sm:w-[700px] xs:w-[95%] mx-auto px-0 m-0 ">
         {video1 && (
-          <video src={video1} autoPlay  loop className="w-full"></video>
+          <video
+            src={video1}
+            autoPlay
+            loop
+            muted
+            playsInline
+            disablePictureInPicture
+            controlsList="nodownload nofullscreen"
+            controls={false}
+            className="w-full"
+          ></video>
         )}
         {img1 && <img src={img1} alt="Image 1" className="w-full my-6" />}
         {img7 && <img src={img7} alt="Image 8" className="w-full my-6" />}
