@@ -13,7 +13,6 @@ const Footer = ({ textColor = "white" }) => {
       <div className="text-left w-1/2 md:w-auto items-end">
         <p className={`text-[12px] sm:text-sm leading-relaxed ${textClasses} ${textColor !== 'white' ? 'mb-4' : 'mb-2'}`}>
           WHERE WE WORK <br />
-          ANTONIOU MICHAILIDOU 8, <br />
           CHANIA CITY, GREECE <br />
           PHONE <a href="tel:00306948854616">+30 6948854616</a> <br />
           <br />

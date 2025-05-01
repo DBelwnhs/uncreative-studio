@@ -35,7 +35,7 @@ const Cards = () => {
         top="20%"
         left="25%"
         className="w-36 md:w-56"
-        link="/our-projects" // Link destination
+        link="/awards/kotsovolos" // Link destination
       />
       <Card
         containerRef={containerRef}
@@ -45,7 +45,7 @@ const Cards = () => {
         top="45%"
         left="60%"
         className="w-24 md:w-48"
-        link="/our-projects" // Link destination
+        link="/our-awards" // Link destination
       />
       <Card
         containerRef={containerRef}
@@ -55,7 +55,7 @@ const Cards = () => {
         top="20%"
         left="40%"
         className="w-52 md:w-80"
-        link="/our-projects" // Link destination
+        link="/awards/pink" // Link destination
       />
       <Card
         containerRef={containerRef}
@@ -65,7 +65,7 @@ const Cards = () => {
         top="50%"
         left="40%"
         className="w-48 md:w-72"
-        link="/our-projects" // Link destination
+        link="/awards/primarycare" // Link destination
       />
       {/* <Card
         containerRef={containerRef}

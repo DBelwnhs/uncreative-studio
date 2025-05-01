@@ -14,7 +14,7 @@ export const SpringCards = () => {
                We design purposeful online brand presences through expert social media management and graphic design. By crafting cohesive visual identities and engaging content, we showcase your values, connect with your audience, and boost brand awareness and engagement.
             </>
           }
-          className="bg-[#F8F8EF]"
+          className="bg-[#F5F4F0]"
         />
         <Card
           title="WEB DESIGN"
@@ -26,7 +26,7 @@ with ease. From semi-custom to full bespoke design,
 we ensure your online home reflects your new identity seamlessly.
             </>
           }
-          className="bg-[#F8F8EF] sm:-translate-y-6"
+          className="bg-[#F5F4F0] sm:-translate-y-6"
         />
         <Card
           title="BRAND IDENTITY"
@@ -42,7 +42,7 @@ of your brand identity, style guide, and supporting collateral to help
 you make the best impression on your customers.
             </>
           }
-          className="bg-[#F8F8EF]"
+          className="bg-[#F5F4F0]"
         />
         <Card
           title="PACKAGING"
@@ -57,7 +57,7 @@ for your customers that evokes the perfect emotions, reinforcing
 your brand strategy and enhancing customer engagement.
             </>
           }
-          className="bg-[#F8F8EF] sm:-translate-y-6"
+          className="bg-[#F5F4F0] sm:-translate-y-6"
         />
       </div>
     </section>
